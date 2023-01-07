@@ -29,7 +29,7 @@ const CHAIN_DICTIONARY = {
 /**
  * Required chain to interact with contract
  */
-const CHAIN_ID_REQUIRED = 5; //Mumbai
+const CHAIN_ID_REQUIRED = 5; //Goerli Testnet
 
 /**
  * Same contract deployed to each network

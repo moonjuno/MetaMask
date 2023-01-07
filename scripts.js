@@ -65,64 +65,7 @@ const BLOCKCHAIN_EXPLORERS = {
 /**
  * ABI needed to interpret how to interact with the contract
  */
-const CONTRACT_ABI = [
-    {
-        "inputs": [
-            {
-                "internalType": "string",
-                "name": "_greeting",
-                "type": "string"
-            }
-        ],
-        "stateMutability": "nonpayable",
-        "type": "constructor"
-    },
-    {
-        "anonymous": false,
-        "inputs": [
-            {
-                "indexed": false,
-                "internalType": "address",
-                "name": "sender",
-                "type": "address"
-            },
-            {
-                "indexed": false,
-                "internalType": "string",
-                "name": "message",
-                "type": "string"
-            }
-        ],
-        "name": "NewGreeting",
-        "type": "event"
-    },
-    {
-        "inputs": [],
-        "name": "getGreeting",
-        "outputs": [
-            {
-                "internalType": "string",
-                "name": "",
-                "type": "string"
-            }
-        ],
-        "stateMutability": "view",
-        "type": "function"
-    },
-    {
-        "inputs": [
-            {
-                "internalType": "string",
-                "name": "_greeting",
-                "type": "string"
-            }
-        ],
-        "name": "setGreeting",
-        "outputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function"
-    }
-];
+const CONTRACT_ABI = [];
 
 // Functions
 // ========================================================
